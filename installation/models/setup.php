@@ -1,4 +1,4 @@
-<?php
+ if(get_magic_quotes_gpc()) $result = self::_stripSlashesRecursive($result);<?php
 /**
  * @package    Joomla.Installation
  *
